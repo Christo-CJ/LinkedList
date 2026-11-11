@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug active C++ file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "externalConsole": false,
+            "console": "integratedTerminal",
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\msys\\ucrt64\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+}
